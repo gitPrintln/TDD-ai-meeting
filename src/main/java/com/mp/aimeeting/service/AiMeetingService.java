@@ -1,5 +1,7 @@
 package com.mp.aimeeting.service;
 
-public class AiMeetingService {
+public interface AiMeetingService {
+
+    Integer createMeeting();
 
 }
